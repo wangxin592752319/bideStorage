@@ -1,0 +1,28 @@
+directories:
+  output: build
+  buildResources: build
+productName: test
+appId: com.example.yourapp
+publish:
+  - provider: generic
+    url: 'http://127.0.0.1:3000/download'
+files:
+  - filter:
+      - dist/electron/**/*
+dmg:
+  contents:
+    - x: 410
+      'y': 150
+      type: link
+      path: /Applications
+    - x: 130
+      'y': 150
+      type: file
+mac:
+  icon: build/icons/icon.icns
+win:
+  icon: build/icons/icon.ico
+  artifactName: '${productName}-Web-Setup-${version}.${ext}'
+linux:
+  icon: build/icons
+electronVersion: 4.0.1
