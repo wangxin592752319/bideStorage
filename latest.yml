@@ -1,0 +1,8 @@
+version: 0.0.1
+files:
+  - url: test-Web-Setup-0.0.1.exe
+    sha512: LIT3mOPt0H64M1GCnr+zHG9RvW34NRyQtZqiG27quzSQMpsyLgq95PAIXxjNSmUZTLEO0EmcxGKwaJBbYCWpKw==
+    size: 45622452
+path: test-Web-Setup-0.0.1.exe
+sha512: LIT3mOPt0H64M1GCnr+zHG9RvW34NRyQtZqiG27quzSQMpsyLgq95PAIXxjNSmUZTLEO0EmcxGKwaJBbYCWpKw==
+releaseDate: '2020-07-27T01:17:54.238Z'
